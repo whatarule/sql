@@ -1,0 +1,179 @@
+
+==================== FINAL INTERFACE ====================
+2017-04-13 08:53:35.746946 UTC
+
+interface wk-0.1.0.0-CDuHbL19oKvLLvGA2qA7mn:Lib 8002
+  interface hash: 4fdd0d595143e21911b5fa234b550ebe
+  ABI hash: a319cd3d42e9cdaac5cc2c4a8c6fbc23
+  export-list hash: 31f749c975b51c9295703b580ad26394
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 20706ba525eef3a2fdf123764481b341
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Lib.someFunc
+module dependencies:
+package dependencies: Cabal-1.24.2.0@Cabal-1.24.2.0
+                      array-0.5.1.1@array-0.5.1.1 base-4.9.1.0
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 directory-1.3.0.0@directory-1.3.0.0
+                      filepath-1.4.1.1@filepath-1.4.1.1 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1 pretty-1.1.3.3@pretty-1.1.3.3
+                      process-1.4.3.0@process-1.4.3.0 time-1.6.0.1@time-1.6.0.1
+                      unix-2.7.2.1@unix-2.7.2.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+family instance modules: Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Compat.Semigroup
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Compiler
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.InstalledPackageInfo
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.License
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.ModuleName
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Package
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.PackageDescription
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.BuildTarget
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.Compiler
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.Haddock
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.InstallDirs
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.LocalBuildInfo
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.PackageIndex
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.Program.Find
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.Program.GHC
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.Program.Types
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.Setup
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.System
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Verbosity
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Version
+                         Cabal-1.24.2.0@Cabal-1.24.2.0:Language.Haskell.Extension
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Functor.Identity base-4.9.1.0:Data.List.NonEmpty
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Semigroup
+                         base-4.9.1.0:Data.Type.Equality base-4.9.1.0:Data.Version
+                         base-4.9.1.0:Data.Void base-4.9.1.0:GHC.Exts
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+import  -/  Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.PackageDescription 231f0bb845de7fba6550a81c3f2f95be
+import  -/  Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple 51957d3a69bff513cb5ecdc32c4d2154
+import  -/  Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.LocalBuildInfo a2db8184b0c60b001b41997335e0658b
+import  -/  Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.Program 09e22b063ea4aaca046bbf28519ab6ec
+import  -/  Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.Program.Find c6ef0d4cdfedafa05a659461ff89107a
+import  -/  Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Simple.Program.Types c239501b1da3dc00a41c370e652829ae
+import  -/  Cabal-1.24.2.0@Cabal-1.24.2.0:Distribution.Verbosity 996cfc6d8545eb4fe74302ee97a6588b
+import  -/  base-4.9.1.0:Control.Monad a6784c5dab0d75c63dabec5a37843f98
+import  -/  base-4.9.1.0:Data.Foldable 3e0b6967a1da89945d0e2d47266337a2
+import  -/  base-4.9.1.0:Data.List 07ae2acca6538aa0800bd0a993ac6ac1
+import  -/  base-4.9.1.0:Data.OldList 27987919d8da2f92e3f472ca81f730f8
+import  -/  base-4.9.1.0:Data.Traversable 556020d7cf3c4a34a774600512918a37
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:System.IO e4a64a8e3dce8616da54f0ee7104f7db
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+addDependentFile "/home/wk/.stack/programs/x86_64-linux/ghc-8.0.2/lib/ghc-8.0.2/include/ghcversion.h"
+addDependentFile ".stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/autogen/cabal_macros.h"
+addDependentFile "/usr/include/stdc-predef.h"
+afc869dd635c402c69d4bbec71088254
+  $fConstOrIda(->) :: Lib.ConstOrId a (b -> a)
+  DFunId
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,A>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                GHC.Base.const
+                  `cast`
+                (forall (a :: <*>_N) (b :: <*>_N).
+                 Sym (Lib.N:ConstOrId[0]) <a>_N <b -> a>_N) -}
+afc869dd635c402c69d4bbec71088254
+  $fConstOrIdaa :: Lib.ConstOrId a a
+  DFunId
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                GHC.Base.id
+                  `cast`
+                (forall (a :: <*>_N). Sym (Lib.N:ConstOrId[0]) <a>_N <a>_N) -}
+44388c9497e56a3e1c31ca1df46b5a73
+  $tc'C:ConstOrId :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   18333753616490546360##
+                   18371048318521518731##
+                   Lib.$trModule
+                   Lib.$tc'C:ConstOrId1) -}
+eb95c9ced234665125ea28889f702f08
+  $tc'C:ConstOrId1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'C:ConstOrId"#) -}
+66f639d2612c079b96e3f664eb2818f1
+  $tcConstOrId :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   18097731946336919966##
+                   6185323870216563307##
+                   Lib.$trModule
+                   Lib.$tcConstOrId1) -}
+a7ea4de7d8f03ea93938e776e3ef8f28
+  $tcConstOrId1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "ConstOrId"#) -}
+82d14a90ebdc841e635d8f91fd0f09d2
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Lib.$trModule2 Lib.$trModule1) -}
+5d1931cf37f412e186b5b0a170246bf9
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Lib"#) -}
+03dee92566b654c1c0eb9001f1d54c9a
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "wk-0.1.0.0-CDuHbL19oKvLLvGA2qA7mn"#) -}
+afc869dd635c402c69d4bbec71088254
+  class ConstOrId a b where
+    constOrId :: a -> b
+    {-# MINIMAL constOrId #-}
+3969b53b18d98fed3ec44756c3ce9edc
+  someFunc :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Lib.someFunc1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+a14830ee0412fcb8cf8f55874f4ff5b1
+  someFunc1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State#
+                             GHC.Prim.RealWorld)[OneShot] ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Lib.someFunc2
+                   GHC.Types.True
+                   eta) -}
+0ec591bebcad8bee11fb7d2f56e9d5a1
+  someFunc2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "someFunc"#) -}
+instance Lib.ConstOrId [., (->)] = Lib.$fConstOrIda(->)
+instance Lib.ConstOrId [., .] = Lib.$fConstOrIdaa
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

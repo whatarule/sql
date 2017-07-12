@@ -1,0 +1,15 @@
+Configuring binary-parsers-0.2.3.0...
+Building binary-parsers-0.2.3.0...
+Preprocessing library binary-parsers-0.2.3.0...
+[1 of 4] Compiling Data.Binary.Parser.Word8 ( Data/Binary/Parser/Word8.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Binary/Parser/Word8.o )
+[2 of 4] Compiling Data.Binary.Parser.Numeric ( Data/Binary/Parser/Numeric.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Binary/Parser/Numeric.o )
+[3 of 4] Compiling Data.Binary.Parser.Char8 ( Data/Binary/Parser/Char8.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Binary/Parser/Char8.o )
+[4 of 4] Compiling Data.Binary.Parser ( Data/Binary/Parser.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Binary/Parser.o )
+
+Data/Binary/Parser.hs:111:1: warning: [-Wunused-imports]
+    The qualified import of ‘Data.ByteString.Lazy’ is redundant
+      except perhaps to import instances from ‘Data.ByteString.Lazy’
+    To import instances alone, use: import Data.ByteString.Lazy()
+Installing library in
+/home/wk/giga/hs/stack/test/mysql/.stack-work/install/x86_64-linux/lts-8.8/8.0.2/lib/x86_64-linux-ghc-8.0.2/binary-parsers-0.2.3.0-9w7yePxNv83C43eoaaFhlP
+Registering binary-parsers-0.2.3.0...

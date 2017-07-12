@@ -1,0 +1,3 @@
+Configuring pcre-light-0.4.0.4...
+Cabal-simple_mPHDZzAJ_1.24.2.0_ghc-8.0.2: The pkg-config package 'libpcre' is
+required but it could not be found.

@@ -1,0 +1,101 @@
+Configuring mysql-haskell-0.8.0.0...
+Building mysql-haskell-0.8.0.0...
+Preprocessing library mysql-haskell-0.8.0.0...
+[ 1 of 14] Compiling Database.MySQL.Protocol.Packet ( Database/MySQL/Protocol/Packet.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/Protocol/Packet.o )
+
+Database/MySQL/Protocol/Packet.hs:18:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Database/MySQL/Protocol/Packet.hs:27:1: warning: [-Wunused-imports]
+    The qualified import of ‘Data.ByteString.Lazy.Internal’ is redundant
+      except perhaps to import instances from ‘Data.ByteString.Lazy.Internal’
+    To import instances alone, use: import Data.ByteString.Lazy.Internal()
+[ 2 of 14] Compiling Database.MySQL.Protocol.Escape ( Database/MySQL/Protocol/Escape.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/Protocol/Escape.o )
+[ 3 of 14] Compiling Database.MySQL.Protocol.ColumnDef ( Database/MySQL/Protocol/ColumnDef.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/Protocol/ColumnDef.o )
+
+Database/MySQL/Protocol/ColumnDef.hs:19:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 4 of 14] Compiling Database.MySQL.Protocol.MySQLValue ( Database/MySQL/Protocol/MySQLValue.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/Protocol/MySQLValue.o )
+
+Database/MySQL/Protocol/MySQLValue.hs:37:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 5 of 14] Compiling Database.MySQL.Protocol.Command ( Database/MySQL/Protocol/Command.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/Protocol/Command.o )
+
+Database/MySQL/Protocol/Command.hs:18:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 6 of 14] Compiling Database.MySQL.Query ( Database/MySQL/Query.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/Query.o )
+[ 7 of 14] Compiling Database.MySQL.Protocol.Auth ( Database/MySQL/Protocol/Auth.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/Protocol/Auth.o )
+
+Database/MySQL/Protocol/Auth.hs:19:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Database/MySQL/Protocol/Auth.hs:28:1: warning: [-Wunused-imports]
+    The import of ‘Data.Word’ is redundant
+      except perhaps to import instances from ‘Data.Word’
+    To import instances alone, use: import Data.Word()
+
+Database/MySQL/Protocol/Auth.hs:101:5: warning: [-Wunused-matches]
+    Defined but not used: ‘authPluginLen’
+[ 8 of 14] Compiling Database.MySQL.Connection ( Database/MySQL/Connection.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/Connection.o )
+[ 9 of 14] Compiling Database.MySQL.TLS ( Database/MySQL/TLS.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/TLS.o )
+
+Database/MySQL/TLS.hs:21:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad’ is redundant
+      except perhaps to import instances from ‘Control.Monad’
+    To import instances alone, use: import Control.Monad()
+[10 of 14] Compiling Database.MySQL.BinLogProtocol.BinLogMeta ( Database/MySQL/BinLogProtocol/BinLogMeta.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/BinLogProtocol/BinLogMeta.o )
+
+Database/MySQL/BinLogProtocol/BinLogMeta.hs:31:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[11 of 14] Compiling Database.MySQL.BinLogProtocol.BinLogValue ( Database/MySQL/BinLogProtocol/BinLogValue.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/BinLogProtocol/BinLogValue.o )
+
+Database/MySQL/BinLogProtocol/BinLogValue.hs:16:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Database/MySQL/BinLogProtocol/BinLogValue.hs:19:1: warning: [-Wunused-imports]
+    The import of ‘Data.Binary.Put’ is redundant
+      except perhaps to import instances from ‘Data.Binary.Put’
+    To import instances alone, use: import Data.Binary.Put()
+[12 of 14] Compiling Database.MySQL.BinLogProtocol.BinLogEvent ( Database/MySQL/BinLogProtocol/BinLogEvent.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/BinLogProtocol/BinLogEvent.o )
+
+Database/MySQL/BinLogProtocol/BinLogEvent.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[13 of 14] Compiling Database.MySQL.Base ( Database/MySQL/Base.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/Base.o )
+
+Database/MySQL/Base.hs:76:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Database/MySQL/Base.hs:89:1: warning: [-Wunused-imports]
+    The import of ‘OutputStream’
+    from module ‘System.IO.Streams’ is redundant
+[14 of 14] Compiling Database.MySQL.BinLog ( Database/MySQL/BinLog.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/MySQL/BinLog.o )
+
+Database/MySQL/BinLog.hs:31:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Database/MySQL/BinLog.hs:47:1: warning: [-Wunused-imports]
+    The import of ‘OutputStream’
+    from module ‘System.IO.Streams’ is redundant
+Installing library in
+/home/wk/giga/hs/stack/test/mysql/.stack-work/install/x86_64-linux/lts-8.8/8.0.2/lib/x86_64-linux-ghc-8.0.2/mysql-haskell-0.8.0.0-H9079uOsnLT1zGaKjv55SW
+Registering mysql-haskell-0.8.0.0...

@@ -1,0 +1,17 @@
+Configuring binary-0.8.2.1...
+Building binary-0.8.2.1...
+Preprocessing library binary-0.8.2.1...
+[ 1 of 10] Compiling Data.Binary.Internal ( src/Data/Binary/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Binary/Internal.o )
+[ 2 of 10] Compiling Data.Binary.Builder.Base ( src/Data/Binary/Builder/Base.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Binary/Builder/Base.o )
+[ 3 of 10] Compiling Data.Binary.Builder.Internal ( src/Data/Binary/Builder/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Binary/Builder/Internal.o )
+[ 4 of 10] Compiling Data.Binary.Get.Internal ( src/Data/Binary/Get/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Binary/Get/Internal.o )
+[ 5 of 10] Compiling Data.Binary.Builder ( src/Data/Binary/Builder.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Binary/Builder.o )
+[ 6 of 10] Compiling Data.Binary.Get  ( src/Data/Binary/Get.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Binary/Get.o )
+[ 7 of 10] Compiling Data.Binary.Put  ( src/Data/Binary/Put.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Binary/Put.o )
+[ 8 of 10] Compiling Data.Binary.Class ( src/Data/Binary/Class.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Binary/Class.o )
+[ 9 of 10] Compiling Data.Binary.Generic ( src/Data/Binary/Generic.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Binary/Generic.o )
+[10 of 10] Compiling Data.Binary      ( src/Data/Binary.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Data/Binary.o )
+In-place registering binary-0.8.2.1...
+Installing library in
+/home/wk/giga/hs/stack/test/mysql/.stack-work/install/x86_64-linux/lts-6.11/7.10.3/lib/x86_64-linux-ghc-7.10.3/binary-0.8.2.1-FHzJNfGYzmADHJ5c6Qat15
+Registering binary-0.8.2.1...

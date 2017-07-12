@@ -1,0 +1,40 @@
+Configuring mysql-haskell-0.8.0.0...
+Building mysql-haskell-0.8.0.0...
+Preprocessing library mysql-haskell-0.8.0.0...
+[ 1 of 14] Compiling Database.MySQL.Protocol.Escape ( Database/MySQL/Protocol/Escape.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Database/MySQL/Protocol/Escape.o )
+[ 2 of 14] Compiling Database.MySQL.Protocol.Packet ( Database/MySQL/Protocol/Packet.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Database/MySQL/Protocol/Packet.o )
+
+Database/MySQL/Protocol/Packet.hs:18:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Database/MySQL/Protocol/Packet.hs:27:1: Warning:
+    The qualified import of ‘Data.ByteString.Lazy.Internal’ is redundant
+      except perhaps to import instances from ‘Data.ByteString.Lazy.Internal’
+    To import instances alone, use: import Data.ByteString.Lazy.Internal()
+[ 3 of 14] Compiling Database.MySQL.Protocol.ColumnDef ( Database/MySQL/Protocol/ColumnDef.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Database/MySQL/Protocol/ColumnDef.o )
+
+Database/MySQL/Protocol/ColumnDef.hs:19:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 4 of 14] Compiling Database.MySQL.Protocol.MySQLValue ( Database/MySQL/Protocol/MySQLValue.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Database/MySQL/Protocol/MySQLValue.o )
+
+Database/MySQL/Protocol/MySQLValue.hs:243:57:
+    Not in scope: ‘putCharUtf8’
+
+Database/MySQL/Protocol/MySQLValue.hs:252:39:
+    Not in scope: ‘putCharUtf8’
+
+Database/MySQL/Protocol/MySQLValue.hs:256:40:
+    Not in scope: ‘putCharUtf8’
+
+Database/MySQL/Protocol/MySQLValue.hs:256:61:
+    Not in scope: ‘putCharUtf8’
+
+Database/MySQL/Protocol/MySQLValue.hs:262:17:
+    Not in scope: ‘putCharUtf8’
+
+Database/MySQL/Protocol/MySQLValue.hs:262:42:
+    Not in scope: ‘putCharUtf8’
